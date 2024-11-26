@@ -31,3 +31,10 @@ h2{
     font-size: 32px;
 }
 
+#btn{
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}

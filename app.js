@@ -23,6 +23,7 @@ const sujets =[
         img: 'image5.png'
     },
 ]
+
 function aleatoire(){
 const alea = Math.ceil(Math.random()*5)
 const pos = alea-1
@@ -39,4 +40,6 @@ const currentSujet = sujets[pos]
 document.querySelector("h2").innerHTML+=(pos+1)
 container.querySelector("img").src="./img/"+currentSujet.img
 
+const btn = document.querySelector('#btn')
 
+btn.addEventListener("click", function(){window.location="index.html"})
