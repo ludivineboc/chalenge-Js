@@ -1,4 +1,4 @@
-const sujets = [
+ const sujets = [
     { id: 1, img: 'image1.png' },
     { id: 2, img: 'image2.png' },
     { id: 3, img: 'image3.png' },
@@ -41,3 +41,7 @@ const btn = document.querySelector('#btn');
 btn.addEventListener("click", function () {
     afficherSujet(); 
 });
+
+
+
+
